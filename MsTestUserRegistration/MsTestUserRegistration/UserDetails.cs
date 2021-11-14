@@ -18,6 +18,7 @@ namespace MsTestUserRegistration
         public Match LastName(string lastname, string pattern)
         {
             this.lastName = lastname;
+            
             return Regex.Match(lastName, pattern);
 
         }
