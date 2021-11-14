@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\bin\Debug\netcoreapp3.1\MsTestUserRegistration.exe
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\bin\Debug\netcoreapp3.1\MsTestUserRegistration.deps.json
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\bin\Debug\netcoreapp3.1\MsTestUserRegistration.runtimeconfig.json
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\bin\Debug\netcoreapp3.1\MsTestUserRegistration.runtimeconfig.dev.json
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\bin\Debug\netcoreapp3.1\MsTestUserRegistration.dll
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\bin\Debug\netcoreapp3.1\MsTestUserRegistration.pdb
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.AssemblyInfo.cs
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.dll
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.pdb
+C:\Users\User\Desktop\New folder\MsTestUserRegistration\MsTestUserRegistration\obj\Debug\netcoreapp3.1\MsTestUserRegistration.genruntimeconfig.cache
