@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\bin\Debug\netcoreapp3.1\UserRegistrationUsingRegex.exe
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\bin\Debug\netcoreapp3.1\UserRegistrationUsingRegex.deps.json
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\bin\Debug\netcoreapp3.1\UserRegistrationUsingRegex.runtimeconfig.json
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\bin\Debug\netcoreapp3.1\UserRegistrationUsingRegex.runtimeconfig.dev.json
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\bin\Debug\netcoreapp3.1\UserRegistrationUsingRegex.dll
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\bin\Debug\netcoreapp3.1\UserRegistrationUsingRegex.pdb
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.AssemblyInfo.cs
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.dll
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.pdb
+C:\Users\User\Desktop\New folder\UserRegistrationUsingRegex\UserRegistrationUsingRegex\obj\Debug\netcoreapp3.1\UserRegistrationUsingRegex.genruntimeconfig.cache

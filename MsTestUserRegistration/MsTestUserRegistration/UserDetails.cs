@@ -16,7 +16,8 @@ namespace MsTestUserRegistration
         public Match FirstName(string firstname, string pattern)
         {
             this.firstName = firstname;
-            return Regex.Match(firstName, pattern);
+           
+            return Regex.Match(firstName,pattern);
 
         }
         public Match LastName(string lastname, string pattern)
