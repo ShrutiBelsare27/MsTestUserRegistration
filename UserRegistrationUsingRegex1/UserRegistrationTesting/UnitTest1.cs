@@ -86,5 +86,12 @@ namespace UserRegistrationTesting
             string expected = userRegistration.checkForPassword();
             Assert.AreEqual(expected, "Entry is not successful");
         }
+        [TestMethod]
+        public void GivenParameterizedTest_ToValidateMultipleEntries_ReturnEntryIsSucessful()
+        {
+            UserRegistration userRegistration = new UserRegistration();
+            var result = userRegistration.checkMultipleEntriesOfEmail("abc@yahoo.com", "abc-100@yahoo.com", "abc@gmail.com.com", "abc+100@gmail.com");
+            Assert.AreEqual(result, "Entry is successful");
+        }
     }
 }

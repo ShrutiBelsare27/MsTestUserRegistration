@@ -1,4 +1,5 @@
 ﻿using System;
+using UserRegistrationUsingRegex1;
 
 namespace UserRegistrationUsingRegex
 {
@@ -23,7 +24,10 @@ namespace UserRegistrationUsingRegex
             Console.WriteLine(userRegistrationRegex.validateEmail(email));
             Console.WriteLine(userRegistrationRegex.validateMobileFormat(mobilePattern));
             Console.WriteLine(userRegistrationRegex.validatePreDefinedPassword(preDefinedPassword));
-          
+            Console.WriteLine("Email sample validator");
+            EmailSamples emailSamples = new EmailSamples();
+            emailSamples.validateEmails();
+
         }
     }
 }
