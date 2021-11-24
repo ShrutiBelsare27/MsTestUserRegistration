@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserRegistrationUsingRegex;
+using UserRegistrationUsingRegex1;
+
 namespace UserRegistrationTesting
 {
     
@@ -92,6 +94,76 @@ namespace UserRegistrationTesting
             UserRegistration userRegistration = new UserRegistration();
             var result = userRegistration.checkMultipleEntriesOfEmail("abc@yahoo.com", "abc-100@yahoo.com", "abc@gmail.com.com", "abc+100@gmail.com");
             Assert.AreEqual(result, "Entry is successful");
+        }
+        [TestMethod]
+        [DataRow("shruti")]
+        public void GivenFirstName_WhenInvalid_ThenShouldThrowInvalidFirstNameException(string firstName)
+        {
+            try
+            {
+                UserRegistration userRegistration = new UserRegistration();
+                userRegistration.checkFirstName(firstName);
+            }
+            catch (UserRegistrationException exception)
+            {
+                Assert.AreEqual("Invalid First Name Format", exception.Message);
+            }
+        }
+        [TestMethod]
+        [DataRow("belsare")]
+        public void GivenLastName_WhenInvalid_ThenShouldThrowInvalidLastNameException(string lastName)
+        {
+            try
+            {
+                UserRegistration userRegistration = new UserRegistration();
+                userRegistration.checkLastName(lastName);
+            }
+            catch (UserRegistrationException exception)
+            {
+                Assert.AreEqual("Invalid Last Name Format", exception.Message);
+            }
+        }
+        [TestMethod]
+        [DataRow("abc@.com.my")]
+        public void GivenEmail_WhenInvalid_ThenShouldThrowInvalidEmailException(string email)
+        {
+            try
+            {
+                UserRegistration userRegistration = new UserRegistration();
+                userRegistration.checkEmail(email);
+            }
+            catch (UserRegistrationException exception)
+            {
+                Assert.AreEqual("Invalid Email Format", exception.Message);
+            }
+        }
+        [TestMethod]
+        [DataRow("91 8149713160")]
+        public void GivenMobileFormat_WhenInvalid_ThenShouldThrowInvalidMobileFormatException(string mobileFormat)
+        {
+            try
+            {
+                UserRegistration userRegistration = new UserRegistration();
+                userRegistration.checkMobile(mobileFormat);
+            }
+            catch (UserRegistrationException exception)
+            {
+                Assert.AreEqual("Invalid Mobile Number Format", exception.Message);
+            }
+        }
+        [TestMethod]
+        [DataRow("shruti@123")]
+        public void GivenPasswordFormat_WhenInvalid_ThenShouldThrowInvalidPasswordFormatException(string preDefinedPassword)
+        {
+            try
+            {
+                UserRegistration userRegistration = new UserRegistration();
+                userRegistration.checkPassword(preDefinedPassword);
+            }
+            catch (UserRegistrationException exception)
+            {
+                Assert.AreEqual("Invalid Password Format", exception.Message);
+            }
         }
     }
 }
