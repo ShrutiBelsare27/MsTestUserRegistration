@@ -31,5 +31,11 @@ namespace UserRegistrationUsingRegex
         {
             return Regex.IsMatch(preDefinedPassword, PASSWORDRULE);
         }
+
+        public Func<string, bool> isValidFirstName = firstName => Regex.IsMatch(firstName, VALIDNAMEPATTERN);
+        public Func<string, bool> isValidLastName = lastName => Regex.IsMatch(lastName, VALIDNAMEPATTERN);
+        public Func<string, bool> isValidEmail = email => Regex.IsMatch(email, EMAILPATTERN);
+        public Func<string, bool> isValidMobileNumber = mobileFormat => Regex.IsMatch(mobileFormat, MOBILEPATTERN);
+        public Func<string, bool> isValidPassword = preDefinedPassword => Regex.IsMatch(preDefinedPassword, PASSWORDRULE);
     }
 }

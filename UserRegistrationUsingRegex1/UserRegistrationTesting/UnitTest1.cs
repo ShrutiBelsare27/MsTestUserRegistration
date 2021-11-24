@@ -165,5 +165,49 @@ namespace UserRegistrationTesting
                 Assert.AreEqual("Invalid Password Format", exception.Message);
             }
         }
+        [TestMethod]
+        [DataRow("Shruti")]
+        public void GivenFirstName_Whenvalid_ThenShouldReturnTrueUsingLambda(string firstName)
+        {
+            UserRegistrationRegex userRegistrationRegex = new UserRegistrationRegex();
+            bool validateFirstName = userRegistrationRegex.isValidFirstName(firstName);
+            Assert.AreEqual(true, validateFirstName);
+        }
+       
+        [TestMethod]
+        [DataRow("Belsare")]
+        public void GivenLastName_WhenValid_ThenShouldReturnTrueUsingLambda(string lastName)
+        {
+            UserRegistrationRegex userRegistrationRegex = new UserRegistrationRegex();
+            bool validateLastName = userRegistrationRegex.isValidLastName(lastName);
+            Assert.AreEqual(true, validateLastName);
+        }
+       
+        [TestMethod]
+        [DataRow("abc@yahoo.com")]
+        public void GivenEmail_WhenValid_ThenShouldReturnTrueUsingLambda(string email)
+        {
+            UserRegistrationRegex userRegistrationRegex = new UserRegistrationRegex();
+            bool validateEmail = userRegistrationRegex.isValidEmail(email);
+            Assert.AreEqual(true, validateEmail);
+        }
+       
+        [TestMethod]
+        [DataRow("91 9733213160")]
+        public void GivenMobileFormat_WhenValid_ThenShouldReturnTrueUsingLambda(string mobileFormat)
+        {
+            UserRegistrationRegex userRegistrationRegex = new UserRegistrationRegex();
+            bool validateMobileFormat = userRegistrationRegex.isValidMobileNumber(mobileFormat);
+            Assert.AreEqual(true, validateMobileFormat);
+        }
+   
+        [TestMethod]
+        [DataRow("Shruti@123")]
+        public void GivenPasswordFormat_WhenValid_ThenShouldReturnTrueUsingLambda(string preDefinedPassword)
+        {
+            UserRegistrationRegex userRegistrationRegex = new UserRegistrationRegex();
+            bool validatePassword = userRegistrationRegex.isValidPassword(preDefinedPassword);
+            Assert.AreEqual(true, validatePassword);
+        }
     }
 }
