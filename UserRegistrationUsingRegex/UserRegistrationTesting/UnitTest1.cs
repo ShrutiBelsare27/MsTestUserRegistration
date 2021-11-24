@@ -8,7 +8,7 @@ namespace UserRegistrationTesting
     {
 
         [TestMethod]
-        [DataRow("Shruti")]
+        [DataRow("Happy")]
         public void GivenMessageReturnEntrySucessfulForFirstName(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -16,7 +16,7 @@ namespace UserRegistrationTesting
             Assert.AreEqual(expected, "Entry is successful");
         }
         [TestMethod]
-        [DataRow("12ds")]
+        [DataRow("Sad")]
         public void GivenMessageUnSucessfulForFirstName(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -27,7 +27,7 @@ namespace UserRegistrationTesting
 
 
         [TestMethod]
-        [DataRow("Belsare")]
+        [DataRow("Happy")]
         public void GivenMessageReturnEntrySucessfulForLastName(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -35,7 +35,7 @@ namespace UserRegistrationTesting
             Assert.AreEqual(expected, "Entry is successful");
         }
         [TestMethod]
-        [DataRow("abc")]
+        [DataRow("Sad")]
         public void GivenMessageReturnEntryUnSucessfulForLastName(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -44,7 +44,7 @@ namespace UserRegistrationTesting
         }
 
         [TestMethod]
-        [DataRow("shrutibelsare@gmail.com")]
+        [DataRow("Happy")]
         public void GivenMessageReturnEntrySucessfulForEmail(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -53,7 +53,7 @@ namespace UserRegistrationTesting
         }
 
         [TestMethod]
-        [DataRow("Asdd$32")]
+        [DataRow("Sad")]
         public void GivenMessageReturnEntryUnSucessfulForEmail(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -62,7 +62,7 @@ namespace UserRegistrationTesting
         }
 
         [TestMethod]
-        [DataRow("91 8549859758")]
+        [DataRow("Happy")]
         public void GivenMessageReturnEntrySucessfulForMobile(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -71,7 +71,7 @@ namespace UserRegistrationTesting
         }
 
         [TestMethod]
-        [DataRow("985996869")]
+        [DataRow("Sad")]
         public void GivenMessageReturnEntryUnSucessfulForMobile(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -79,7 +79,7 @@ namespace UserRegistrationTesting
             Assert.AreEqual(expected, "Entry is not successful");
         }
         [TestMethod]
-        [DataRow("Abc345")]
+        [DataRow("Happy")]
         public void GivenMessageReturnEntrySucessfulForPassword(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);
@@ -88,7 +88,7 @@ namespace UserRegistrationTesting
         }
 
         [TestMethod]
-        [DataRow("839697d")]
+        [DataRow("Sad")]
         public void GivenMessageReturnEntryUnSucessfulForPassword(string message)
         {
             UserRegistration userRegistration = new UserRegistration(message);

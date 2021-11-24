@@ -20,7 +20,7 @@ namespace UserRegistrationUsingRegex
         
         public string checkForFirstName()
         {
-            if (message.Contains("Shruti"))
+            if (message.Contains("Happy"))
                 return "Entry is successful";
             else
                 return "Entry is not successful";
@@ -28,7 +28,7 @@ namespace UserRegistrationUsingRegex
   
         public string checkForLastName()
         {
-            if (message.Contains("Belsare"))
+            if (message.Contains("Happy"))
                 return "Entry is successful";
             else
                 return "Entry is not successful";
@@ -36,7 +36,7 @@ namespace UserRegistrationUsingRegex
         
         public string checkForEmail()
         {
-            if (message.Contains("shrutibelsare@gmail.com"))
+            if (message.Contains("Happy"))
                 return "Entry is successful";
             else
                 return "Entry is not successful";
@@ -44,7 +44,7 @@ namespace UserRegistrationUsingRegex
         
         public string checkForMobile()
         {
-            if (message.Contains("91 8549859758"))
+            if (message.Contains("Happy"))
                 return "Entry is successful";
             else
                 return "Entry is not successful";
@@ -52,7 +52,7 @@ namespace UserRegistrationUsingRegex
         
         public string checkForPassword()
         {
-            if (message.Contains("Abc345"))
+            if (message.Contains("Happy"))
                 return "Entry is successful";
             else
                 return "Entry is not successful";
@@ -66,7 +66,17 @@ namespace UserRegistrationUsingRegex
             else
                 return "Entry is not successful";
         }
-
+        /* public string checkMultipleEntriesOfEmail(string email1, string email2, string email3, string email4)
+         {
+             bool emailForEntry1 = userRegistrationRegex.validateEmail(email1);
+             bool emailForEntry2 = userRegistrationRegex.validateEmail(email2);
+             bool emailForEntry3 = userRegistrationRegex.validateEmail(email3);
+             bool emailForEntry4 = userRegistrationRegex.validateEmail(email4);
+             if (emailForEntry1 && emailForEntry2 && emailForEntry3 && emailForEntry4)
+                 return "Entry is successful";
+             else
+                 return "Entry is not successful";
+         }*/
         public void checkFirstName(string firstName)
         {
             if (userRegistrationRegex.validateFirstName(firstName))
